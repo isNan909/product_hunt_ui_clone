@@ -3,10 +3,13 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   corePlugins: {
     container: false,
+    position: ['absolute'],
   },
   theme: {
     inset: {
       15: '15px',
+      25: '25px',
+      40: '40px',
     },
   },
   variants: {
