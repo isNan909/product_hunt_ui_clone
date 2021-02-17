@@ -6,7 +6,7 @@ import imageSix from '../assets/imageSix.png';
 export const Todaylist = () => {
   return (
     <div>
-      <div class=" mb-3 flex flex-row justify-between items-center">
+      <div className=" mb-3 flex flex-row justify-between items-center">
       <h2 className="text-xl lg:text-1xl font-bold text-left text-gray-900">
         Today
       </h2>

@@ -26,3 +26,10 @@ button > span {
 button.primary:hover {
   background-color: var(--hunt-dark);
 }
+.text-11{
+  font-size: 11px;
+}
+
+.text-13{
+  font-size: 13px;
+}
