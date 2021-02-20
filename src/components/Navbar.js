@@ -2,7 +2,7 @@ import React from 'react';
 
 export const Navbar = () => {
   return (
-    <div className="bg-white">
+    <div className="bg-white fixed left-0 right-0 z-10">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center ">
         <a
           href="javascript.void(0)"
