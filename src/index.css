@@ -5,7 +5,7 @@
 :root {
   --grey: #f3f3f3;
   --hunt: #cc4d29;
-  --hunt-dark: #cd0001;
+  --huntdark: #cd0001;
 }
 
 body {
@@ -20,16 +20,10 @@ body {
 .bg-orange {
   background-color: var(--hunt);
 }
-button > span {
-  font-size: 12px;
-}
-button.primary:hover {
-  background-color: var(--hunt-dark);
-}
-.text-11{
-  font-size: 11px;
-}
 
-.text-13{
-  font-size: 13px;
+button.primary:hover {
+  background-color: var(--huntdark);
+}
+.text-hunt {
+  color: var(--hunt);
 }

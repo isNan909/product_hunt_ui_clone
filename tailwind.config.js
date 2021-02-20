@@ -11,6 +11,12 @@ module.exports = {
       25: '25px',
       40: '40px',
     },
+    fontSize: {
+      f11: '0.68rem',
+      f12: '0.75rem',
+      f13: '0.81rem',
+      f20: '1.25rem',
+    }
   },
   variants: {
     extend: {},

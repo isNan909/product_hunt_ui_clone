@@ -32,7 +32,7 @@ export const Navbar = () => {
               type="text"
               id="hero-field"
               name="hero-field"
-              className="text-sm pl-10 xl:w-80 bg-gray-100 bg-opacity-50 rounded  focus:bg-transparent border border-gray-300 focus:border-grey-500 outline-none text-gray-600 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="text-f13 pl-10 xl:w-80 rounded  focus:bg-transparent border border-gray-300 focus:border-grey-500 outline-none placeholder-gray-600 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               placeholder="Discover your next favourite thing..."
             />
             <div className="absolute inset-15">
@@ -55,31 +55,31 @@ export const Navbar = () => {
         <nav className="md:mr-auto md:ml-4 py-1 pl-4 flex flex-wrap items-center text-base justify-center">
           <a
             href="javascript.void(0)"
-            className="mr-5 text-base text-gray-500 hover:text-gray-700"
+            className="mr-5 text-base text-gray-600 hover:text-gray-700"
           >
             Discussions
           </a>
           <a
             href="javascript.void(0)"
-            className="mr-5 text-base text-gray-500 hover:text-gray-700"
+            className="mr-5 text-base text-gray-600 hover:text-gray-700"
           >
             Deals
           </a>
           <a
             href="javascript.void(0)"
-            className="mr-5 text-base text-gray-500 hover:text-gray-700"
+            className="mr-5 text-base text-gray-600 hover:text-gray-700"
           >
             Jobs
           </a>
           <a
             href="javascript.void(0)"
-            className="mr-5 text-base text-gray-500 hover:text-gray-700"
+            className="mr-5 text-base text-gray-600 hover:text-gray-700"
           >
             Ship
           </a>
           <a
             href="javascript.void(0)"
-            className="mr-5 text-base text-gray-500 hover:text-gray-700"
+            className="mr-5 text-base text-gray-600 hover:text-gray-700"
           >
             <svg
               width="20"
@@ -95,11 +95,11 @@ export const Navbar = () => {
             </svg>
           </a>
         </nav>
-        <button className="text-xs font-bold inline-flex items-center bg-white border border-gray-300 mr-2 uppercase py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
-          <span>log in</span>
+        <button className="text-f11 font-bold inline-flex items-center bg-white border border-gray-300 mr-2 uppercase py-2 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
+          <span className="f13">log in</span>
         </button>
-        <button className="primary text-xs font-bold uppercase inline-flex text-white items-center bg-orange border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
-          <span>Sign up</span>
+        <button className="primary text-f11 font-bold uppercase inline-flex text-white items-center bg-orange border-0 py-2 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
+          <span className="f13">Sign up</span>
         </button>
       </div>
     </div>
