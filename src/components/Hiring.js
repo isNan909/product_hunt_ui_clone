@@ -55,10 +55,14 @@ export const Hiring = () => {
             <span className="f12 text-hunt">view all jobs</span>
           </button>
         </div>
+
+
         <div className="px-5 pb-5 text-f13 font-bold text-gray-500">
           Hiring?
           <span className="pl-1 text-hunt">Post a job</span>
         </div>
+
+        
       </div>
     </div>
   );

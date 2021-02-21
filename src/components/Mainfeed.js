@@ -7,6 +7,7 @@ export const Mainfeed = () => {
     <div>
       <Missedit />
       <Todaylist />
+      <Missedit />
     </div>
   );
 };

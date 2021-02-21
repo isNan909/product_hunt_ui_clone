@@ -17,14 +17,16 @@ export const Newsletter = () => {
             </div>
           </div>
           <div className="p-5">
-            <span className="font-bold text-base text-gray-900 pb-2 flex">Get the best new products in your inbox, every day 👇</span>
+            <span className="font-bold text-base text-gray-900 pb-2 flex">
+              Get the best new products in your inbox, every day 👇
+            </span>
             <div>
               <form action="submit">
                 <input
                   type="text"
                   id="hero-field"
                   name="hero-field"
-                  className="text-f13 pl-4 xl:w-80 rounded  focus:bg-transparent border border-gray-300 focus:border-grey-500 outline-none placeholder-gray-500 py-1 px- leading-8 transition-colors duration-200 ease-in-out"
+                  className="text-f13 pl-4 w-full rounded  focus:bg-transparent border border-gray-300 focus:border-grey-500 outline-none placeholder-gray-500 py-1 px- leading-8 transition-colors duration-200 ease-in-out"
                   placeholder="Your email"
                 />
                 <div className="mt-3">

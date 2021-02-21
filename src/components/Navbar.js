@@ -2,32 +2,29 @@ import React from 'react';
 
 export const Navbar = () => {
   return (
-    <div className="bg-white fixed left-0 right-0 z-10">
-      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center ">
-        <a
-          href="javascript.void(0)"
-          className="flex title-font font-medium items-center text-gray-900 mb-4 mr-5 md:mb-0"
-        >
-          <svg
-            width="40"
-            height="40"
-            viewBox="0 0 40 40"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <g fill="none" fillRule="evenodd">
-              <path
-                d="M40 20c0 11.046-8.954 20-20 20S0 31.046 0 20 8.954 0 20 0s20 8.954 20 20"
-                fill="#DA552F"
-              ></path>
-              <path
-                d="M22.667 20H17v-6h5.667a3 3 0 010 6m0-10H13v20h4v-6h5.667a7 7 0 100-14"
-                fill="#FFF"
-              ></path>
-            </g>
-          </svg>
-        </a>
-        <div>
-          <div className="relative w-full">
+    <div className="bg-white fixed left-0 right-0 z-10 pb-4 px-4 pt-4">
+      <div className="container mx-auto flex justify-between">
+        <div className="flex">
+          <a className="mr-3" href="javascript.void(0)">
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 40 40"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g fill="none" fillRule="evenodd">
+                <path
+                  d="M40 20c0 11.046-8.954 20-20 20S0 31.046 0 20 8.954 0 20 0s20 8.954 20 20"
+                  fill="#DA552F"
+                ></path>
+                <path
+                  d="M22.667 20H17v-6h5.667a3 3 0 010 6m0-10H13v20h4v-6h5.667a7 7 0 100-14"
+                  fill="#FFF"
+                ></path>
+              </g>
+            </svg>
+          </a>
+          <div className="relative w-2/4">
             <input
               type="text"
               id="hero-field"
@@ -51,56 +48,58 @@ export const Navbar = () => {
               </svg>
             </div>
           </div>
-        </div>
-        <nav className="md:mr-auto md:ml-4 py-1 pl-4 flex flex-wrap items-center text-base justify-center">
-          <a
-            href="javascript.void(0)"
-            className="mr-5 text-base text-gray-600 hover:text-gray-700"
-          >
-            Discussions
-          </a>
-          <a
-            href="javascript.void(0)"
-            className="mr-5 text-base text-gray-600 hover:text-gray-700"
-          >
-            Deals
-          </a>
-          <a
-            href="javascript.void(0)"
-            className="mr-5 text-base text-gray-600 hover:text-gray-700"
-          >
-            Jobs
-          </a>
-          <a
-            href="javascript.void(0)"
-            className="mr-5 text-base text-gray-600 hover:text-gray-700"
-          >
-            Ship
-          </a>
-          <a
-            href="javascript.void(0)"
-            className="mr-5 text-base text-gray-600 hover:text-gray-700"
-          >
-            <svg
-              width="20"
-              height="4"
-              viewBox="0 0 20 4"
-              xmlns="http://www.w3.org/2000/svg"
+          <nav className="md:mr-auto md:ml-4 py-1 pl-4 flex items-center text-base justify-center">
+            <a
+              href="javascript.void(0)"
+              className="mr-5 text-base text-gray-600 hover:text-gray-700"
             >
-              <path
-                d="M2 4A2 2 0 102.001.001 2 2 0 002 4zm8 0a2 2 0 10.001-3.999A2 2 0 0010 4zm8 0a2 2 0 10.001-3.999A2 2 0 0018 4z"
-                fill="#BBB"
-                fillRule="evenodd"
-              ></path>
-            </svg>
-          </a>
-        </nav>
-        <button className="text-f11 font-bold inline-flex items-center bg-white border border-gray-300 mr-2 uppercase py-2 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
-          <span className="f13">log in</span>
-        </button>
-        <button className="primary text-f11 font-bold uppercase inline-flex text-white items-center bg-orange border-0 py-2 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
-          <span className="f13">Sign up</span>
-        </button>
+              Discussions
+            </a>
+            <a
+              href="javascript.void(0)"
+              className="mr-5 text-base text-gray-600 hover:text-gray-700"
+            >
+              Deals
+            </a>
+            <a
+              href="javascript.void(0)"
+              className="mr-5 text-base text-gray-600 hover:text-gray-700"
+            >
+              Jobs
+            </a>
+            <a
+              href="javascript.void(0)"
+              className="mr-5 text-base text-gray-600 hover:text-gray-700"
+            >
+              Ship
+            </a>
+            <a
+              href="javascript.void(0)"
+              className="mr-5 text-base text-gray-600 hover:text-gray-700"
+            >
+              <svg
+                width="20"
+                height="4"
+                viewBox="0 0 20 4"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2 4A2 2 0 102.001.001 2 2 0 002 4zm8 0a2 2 0 10.001-3.999A2 2 0 0010 4zm8 0a2 2 0 10.001-3.999A2 2 0 0018 4z"
+                  fill="#BBB"
+                  fillRule="evenodd"
+                ></path>
+              </svg>
+            </a>
+          </nav>
+        </div>
+        <div>
+          <button className="text-f11 font-bold inline-flex items-center bg-white border border-gray-300 mr-2 uppercase py-2 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
+            <span className="f13">log in</span>
+          </button>
+          <button className="primary text-f11 font-bold uppercase inline-flex text-white items-center bg-orange border-0 py-2 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
+            <span className="f13">Sign up</span>
+          </button>
+        </div>
       </div>
     </div>
   );

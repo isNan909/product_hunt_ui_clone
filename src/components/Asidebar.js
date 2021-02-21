@@ -20,6 +20,8 @@ export const Asidebar = () => {
         </button>
           </div>
         </div>
+
+        
         <div>
           <div className="mt-3 text-base font-bold mb-3 text-gray-900">
             Upcomming Products
@@ -46,6 +48,9 @@ export const Asidebar = () => {
                 <img src={Sideone} alt="podcast" />
               </div>
             </div>
+
+
+
             <div className="border-b border-gray-200 overflow-hidden sm:flex justify-between p-5 items-center">
               <div>
                 <span className="text-f13 font-bold text-gray-900 mb-2 block">
@@ -63,6 +68,9 @@ export const Asidebar = () => {
                 <img src={Sidetwo} alt="podcast" />
               </div>
             </div>
+
+
+
             <div className="border-b border-gray-200 overflow-hidden sm:flex justify-between p-5 items-center">
               <div>
                 <span className="text-f13 font-bold text-gray-900 mb-2 block">
@@ -80,11 +88,15 @@ export const Asidebar = () => {
                 <img src={Sidethree} alt="podcast" />
               </div>
             </div>
+
+
             <div className="p-5 flex">
               <button className="w-full font-bold text-f11 items-center bg-white border border-gray-300 uppercase py-2 focus:outline-none hover:bg-gray-200 rounded text-base ">
                 <span className="f12 text-hunt">view all</span>
               </button>
             </div>
+
+
           </div>
         </div>
         <Hiring />
